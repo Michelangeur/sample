@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+}
+
+.container{
+  height: 100vh;
+  position: relative;
+  background: url('./img/asian-cuisine-1850233_1920.jpg');
+  background-size: cover;
+  opacity: .6;
+}
+
+.nav {
+  width: 75%;
+}
+
+ul {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+li {
+  align-content: space-around;
+  list-style: none;
+  margin-top: 4rem;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 5px 2rem ;
+  font-size: 1.3rem;
+  color: rgb(10, 7, 7);
+  font-weight: 600;
+}
+
+a:hover {
+  border-bottom: 2px solid grey;
+  transition: .3s;
+}
+
+.description {
+  margin-top: 15rem;
+  text-align: center;
+  color: rgb(146, 149, 150);
+}
+.phrase {
+  font-size: 4rem;
+  
+}
+
+button {
+  padding: 17px 5rem;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  border-radius: 30px;
+  border: none;
+  color: rgb(24, 1, 1);
+  background: rgb(50, 175, 192);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  scale: 1.3;
+  transition: .2s;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10rem;
+  color: rgb(153, 149, 149);
+}
+
+
+
+
+
+
+
+
